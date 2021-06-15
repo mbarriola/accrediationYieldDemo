@@ -1,7 +1,7 @@
 
 Developed using Eclipse and Java 14
 Some of the dependencies in the pom are there because I was running on java > 11
-For simplicity in the demo there is a single maven module that includes the web, Eureka and microservice. 
+Important!!!! For simplicity in the demo there is a single maven module that includes the web, Eureka and microservice. 
 In a more realistic scenario each component will have its own module.
 For a more complex system we would also consider introducing an API gateway if needed.
 
