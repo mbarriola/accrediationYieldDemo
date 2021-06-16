@@ -4,8 +4,8 @@ Some of the dependencies in the pom are there because I was running on java > 11
 Important!!!! For simplicity in the demo there is a single maven module that includes the web, Eureka and microservice. 
 In a more realistic scenario each component will have its own module.
 For a more complex system we would also consider introducing an API gateway if needed.
-
-To compile and run the application do the following steps in order:
+Added information below
+To compile and run the application do the following steps:
 - Make sure you have defined the environment variables: JAVA_HOME, M2_HOME, M2 and have maven and java defined in your path
 - To compile from the command line run from the pom deployment directory: mvn clean package
 - For this demo the easiest is to run from the command line with three different windows:
