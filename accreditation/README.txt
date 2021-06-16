@@ -5,6 +5,7 @@ Important!!!! For simplicity in the demo there is a single maven module that inc
 In a more realistic scenario each component will have its own module.
 For a more complex system we would also consider introducing an API gateway if needed.
 #commit 1
+#commit 2
 To compile and run the application do the following steps:
 - Make sure you have defined the environment variables: JAVA_HOME, M2_HOME, M2 and have maven and java defined in your path
 - To compile from the command line run from the pom deployment directory: mvn clean package
